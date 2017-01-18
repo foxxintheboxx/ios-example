@@ -1,0 +1,21 @@
+PODS:
+  - ActionCableClient (0.2.3):
+    - Starscream (~> 2.0.0)
+  - SnapKit (3.1.2)
+  - Starscream (2.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ActionCableClient
+  - SnapKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ActionCableClient: c8a466410d31bfa14e7a9c209b539c1e2d026a5f
+  SnapKit: 12b24f569cb7c143acc9c22b9d91b23e7b1c84a2
+  Starscream: 6c135a34e0a6e60cedaa0b30db67a4c05cf7cd38
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 0b5701a99df8b2af026ef8ef3be945503e917a03
+
+COCOAPODS: 1.1.1

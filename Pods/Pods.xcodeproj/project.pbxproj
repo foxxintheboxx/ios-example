@@ -1,0 +1,2061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0439CC2D1CCF117F0D458607187ED848 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A1166873A46B26B204929D5EC3163 /* ConstraintRelation.swift */; };
+		05830A27C315DA52F1AD7A2E25A7B35B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD768E4FCF4CA7518B335A58189D550 /* Error.swift */; };
+		067B229FADC0D320465AED7429CCB90B /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472E8F0842F2420D9124C5A5584DAFF /* ConstraintLayoutGuide+Extensions.swift */; };
+		07AC455F6FD6C6D68A3CA2CCABA30939 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D34DF509CDB08C084CED7A2F9C5780 /* ConstraintMakerEditable.swift */; };
+		09AEDB0F2B807074BDD73C167532E952 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DCC88E126ED7C409CF71D4A5C3565A /* Starscream.framework */; };
+		0A13C76431C95E5E8D4EBBD5EB28E5E6 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C0EAB3F56EEABC8E767DDD8E6602 /* ConstraintLayoutGuide.swift */; };
+		0BC6BF47275F8F31B6209FE848D34656 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE70DD84FBC8EBC7099C00D1F37B29 /* ConstraintConfig.swift */; };
+		0C887A8A9A39AD89A0573FF76F7C81B8 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D3DF34C919B07FD38A58C90C4AFE5B /* ConstraintItem.swift */; };
+		0CC0D7163B8A31FA1F063648AAA5199B /* Starscream-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E39E1F6FC2C7A284540E2BEED2B8DC51 /* Starscream-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		132BD02EF7000EB9B32E7A2CA4B09D4E /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A507A4A65F6B2F0967F074B4FA465 /* Constraint.swift */; };
+		13602A8852139A241F539771BCB7E7FE /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EE5D900669359C348744CF7503D06 /* Debugging.swift */; };
+		16AB97575E5C395B512737A919B0FF59 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F0191474FCBFF4F22B0EA93A67F15 /* ConstraintLayoutSupportDSL.swift */; };
+		1BFA71D68DD10A9903ED08A11440FBC9 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9B1E7100FD9D22BDB3994BEE96AA5 /* UILayoutSupport+Extensions.swift */; };
+		1C504C3DDEE690C01849CE95850C89E2 /* ActionCableClient-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50A7C7E4B5676F640B57A73CFC6DC6EF /* ActionCableClient-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230D5C4974987105857736DFD7017EDC /* RetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32F706C8D6E0BB087179A429C56EA9 /* RetryHandler.swift */; };
+		24F94EFC1F91A583D05D3F383CCE3309 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC067901A8BEE90BAFF8457F3A142B5 /* Constants.swift */; };
+		263B104F67A930DFB1DFD2A12D578550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */; };
+		29A009F1AC7201FE86A39B706BA3E259 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E18B3F985289A9E94AFAC3298D8074 /* SwiftyJSON.swift */; };
+		2CE6F0971FCD840B594C3136989A10F6 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B5C9EE3F34B1566C4BD363967B10B /* ConstraintRelatableTarget.swift */; };
+		2CEAD6A4058A7B4C9D0A6EA3EE23870E /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4134562379B3C5C1CCC873B8A1AB4C1 /* ConstraintAttributes.swift */; };
+		2F0C056E2EBF4C6AD8A23B1956B66B37 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EE5D900669359C348744CF7503D06 /* Debugging.swift */; };
+		312B8B673533C1351E90A8A579F6C826 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D8EAC70FE5FF709E0DE8AA5B3F8D2B /* LayoutConstraint.swift */; };
+		369FCB34365E6F19CCD820C3940AAD77 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBE9E9A14D655011FA6C2C594EB9E8 /* ConstraintOffsetTarget.swift */; };
+		3832DA4E330DDA7A6717EB08AA50A782 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4134562379B3C5C1CCC873B8A1AB4C1 /* ConstraintAttributes.swift */; };
+		38CB61037570FA2E9B332D5728CB2AFF /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE74627DFAEAA5814859D95CABCE0C1 /* ConstraintMakerPriortizable.swift */; };
+		3B2DBFD6283537D2789CF2BAB9421C96 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C72EEF6264993F3ECAFAEA2902799E /* ConstraintLayoutGuideDSL.swift */; };
+		3ED7283A2724D54CD619A02A9AA02984 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C62A5C70444516FDB6FA8488C75ED /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FB65A5201E28EC69B651720BB2B25F9 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5AE2505AC754FDA41966856251D71 /* Channel.swift */; };
+		40127A919A2C42608FE1B32D2B7867DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */; };
+		40EDD4D358EEFBB167DB55D40B36F510 /* ActionCableClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C65C07B9683804DA70C12A826BE744 /* ActionCableClient.swift */; };
+		449AF9F0A36BA3C1D3335963D22A28CC /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8658F3FAC2DD1598D00D3866C2F7C /* ConstraintMakerExtendable.swift */; };
+		4C36DD0D645865F4749ED684D64E707E /* SnapKit-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C90AB62816C313324C367974255B89B4 /* SnapKit-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCA03CE2E990AEBB9165C07B30072BD /* SwiftyJSON-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A087B5B3BFE3B62573D942BC64B92987 /* SwiftyJSON-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EB38D1386AD770FED009BD5A924752F /* Starscream-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DE7914AD002843CF68B8AA15B30032 /* Starscream-tvOS-dummy.m */; };
+		4EF2A79BA9E9C0A970CB567887DD1F8F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1F513F9C0DF83FB97A296D1CA6B2A /* ConstraintMultiplierTarget.swift */; };
+		5C3E80A590979275AB7CCC8D81F2F446 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBE9E9A14D655011FA6C2C594EB9E8 /* ConstraintOffsetTarget.swift */; };
+		5CB7244038DA791D5B96BBC773AC4AEF /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D34DF509CDB08C084CED7A2F9C5780 /* ConstraintMakerEditable.swift */; };
+		5E3BEC8B0F5C12BC8D21811C3E85004C /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBEBD8FCCC6F2EE290C9EB0622AFB1 /* ConstraintMakerRelatable.swift */; };
+		678371FAEF0C5461BEB440FB75B50943 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F7E8AB411517FD521E38396533BF6 /* ConstraintMaker.swift */; };
+		68D0EBE0AC210AD9060D2E8F1E811832 /* SnapKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8434FB63D6910EA50E947A12CBAE8E4 /* SnapKit-iOS-dummy.m */; };
+		6A9EE7F776335DD3245BEA83D83809F4 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBEBD8FCCC6F2EE290C9EB0622AFB1 /* ConstraintMakerRelatable.swift */; };
+		6B15795EB865036F00C0C1F09C2E0AB3 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D3DF34C919B07FD38A58C90C4AFE5B /* ConstraintItem.swift */; };
+		6C360772F35723CBB3B60BF5D6E50A60 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A0CCE2B37BC4E946244A64D465C1D /* ConstraintPriorityTarget.swift */; };
+		6DE66AD6C49FE2C3C66FE1B722082418 /* Pods-ActionCableClient-Example-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA13C24C40728097382AA066F7E877E /* Pods-ActionCableClient-Example-iOS-dummy.m */; };
+		6EB3B995E746CEFF6014559ACE0B72FE /* ActionCableClient-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831AEB4F8FCBF0C8C82C02251ECA2F2A /* ActionCableClient-iOS-dummy.m */; };
+		6ED605C370D186CA6D8527D486EEB2C3 /* SnapKit-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35F4224535F4859990F7B5E2A4BF84E /* SnapKit-tvOS-dummy.m */; };
+		7373CD59AE28487905C84E1B4AB02E72 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C72EEF6264993F3ECAFAEA2902799E /* ConstraintLayoutGuideDSL.swift */; };
+		73DBE95AECFDE2EDC7BD94E11CFA9942 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191AEB1CF6E9CBFEA4C50DC19066F011 /* ConstraintDescription.swift */; };
+		75D9AAE65956B8D9CA16E0BC7EEE4124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */; };
+		78C0787633F97CC8001016500BBC260E /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508D69E71BB14846F9F611A90F062C4 /* LayoutConstraintItem.swift */; };
+		7B7D18764FBED05B88192503DEFC045B /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44633D5267F394FBD14BA136A3D2E207 /* ConstraintInsets.swift */; };
+		7DC371ADCFA3E54A7B43C4A8C24D8DCD /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75ABF669946C1C5A3EF92713706E1FC /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DD2BB7B809C6B7E8FE73DA6EA5A770D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */; };
+		80D435E63D87B1ED79E4B84DB9AEAF1A /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290858780D0BF62EEF27494C443DA79 /* JSONSerializer.swift */; };
+		8288C9E031A463B3763F576C0667A5F2 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB60CED2468B10D5A81ACEF86BDD511 /* ConstraintInsetTarget.swift */; };
+		856B19C4F1FB52B02BA1C31E3A8A4B27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC067901A8BEE90BAFF8457F3A142B5 /* Constants.swift */; };
+		86996C477EF7884732EC30AD47E09A2C /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03299D00DF44FDE35AFF3FE77FDF2C /* ConstraintLayoutSupport.swift */; };
+		870FBA69E078920FAD65A450839B1171 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953C29A311196E0198BED245F18BFEDC /* ConstraintDSL.swift */; };
+		897CE09EB7DA05663AD41C2940E247E4 /* Starscream-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 927091E64B50C9768FCE16C797E362D4 /* Starscream-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFD86D2455585D811DE8F7E12A449B2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70A507A4A65F6B2F0967F074B4FA465 /* Constraint.swift */; };
+		8E7D349B82B9678A71B38249E7186018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */; };
+		901FBA9267C4942A55200BBD897970DC /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17702FF5F90D50AC8E8C97356D01F8 /* ConstraintView.swift */; };
+		908136DEDC1F297A224C97D1B30E0657 /* ActionCableClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C65C07B9683804DA70C12A826BE744 /* ActionCableClient.swift */; };
+		90A5899FACD42F158232F5EAD7C2C393 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DCC88E126ED7C409CF71D4A5C3565A /* Starscream.framework */; };
+		95289289DB32B691DCE6181BD37568C1 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A0CCE2B37BC4E946244A64D465C1D /* ConstraintPriorityTarget.swift */; };
+		97213D03AAD57534E9C42C1BAC56197D /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD768E4FCF4CA7518B335A58189D550 /* Error.swift */; };
+		9BD5A592D31FCA439BB94412D5BD927F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */; };
+		9F0FE76E985617407746DFC50B611051 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721735A8575BB84BA223F0B32F204FFF /* ConstraintMakerFinalizable.swift */; };
+		9FD7592C769B23198CC777EAC16A1446 /* Pods-ActionCableClient-Example-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D824D536BBBBF347803B90FC9D1CB3D /* Pods-ActionCableClient-Example-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A160C651363C7A555EABFCAC434FC125 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51C62A5C70444516FDB6FA8488C75ED /* SSLSecurity.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A1BBDEDE78A56977EBF9224A2E7C993A /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290858780D0BF62EEF27494C443DA79 /* JSONSerializer.swift */; };
+		A23EEBF27BA2FF9A0F30071FB0B8D87D /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C40FE967923957B9C84AFFD1F3284 /* ConstraintConstantTarget.swift */; };
+		A33AD846E5C1556AC3F2FE1CB2121847 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B508D69E71BB14846F9F611A90F062C4 /* LayoutConstraintItem.swift */; };
+		A464A24F2AD1B237F95102119CF36358 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B5AE2505AC754FDA41966856251D71 /* Channel.swift */; };
+		ABE26F0ABBA2760D1E2A062010CE7E3F /* Starscream-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FD4923E3895885F596FA1E9F0015CA /* Starscream-iOS-dummy.m */; };
+		AF31F674023F3C688CF0122ABC795131 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB1F513F9C0DF83FB97A296D1CA6B2A /* ConstraintMultiplierTarget.swift */; };
+		AF9B0ACFF612E4882DD9F93F5E7DDA9A /* ActionCableClient-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1F12A60D7121DCF19E3271E32FECA /* ActionCableClient-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFC6D2591E6F686642364D95FBAF6EC3 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE74627DFAEAA5814859D95CABCE0C1 /* ConstraintMakerPriortizable.swift */; };
+		B3F9BEB33D86697016CD4862FCE694D8 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953C29A311196E0198BED245F18BFEDC /* ConstraintDSL.swift */; };
+		B5E9FF6C9DBC53CB97DC44BB51CD96AE /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03299D00DF44FDE35AFF3FE77FDF2C /* ConstraintLayoutSupport.swift */; };
+		B7034BAC1902034D221CBFC586AC4E12 /* Pods-ActionCableClient-Example-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD4285C74EBC9C27C9DC8003999D3B5 /* Pods-ActionCableClient-Example-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C166E176BCEDE301044C6E78D28AA168 /* SnapKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F95A869AD2A4EBD434377EC9D290C0 /* SnapKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C254D22DDDEF92582DBC78DA2264E25F /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861F9E5B8DE76309E31170AF556563D /* ConstraintViewDSL.swift */; };
+		C258835D4B339A2EFB3C28525927A012 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721735A8575BB84BA223F0B32F204FFF /* ConstraintMakerFinalizable.swift */; };
+		C2FE8663FAF4C3C1817D52E19E2EF490 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A1166873A46B26B204929D5EC3163 /* ConstraintRelation.swift */; };
+		C522E4CCF9C124645354764BA040AC1D /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F7E8AB411517FD521E38396533BF6 /* ConstraintMaker.swift */; };
+		C7A4F4666F3EDE75D87CB64EC1305544 /* ActionCableClient-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBA6C79EA1A5239C2BA151D8D1FF9B /* ActionCableClient-tvOS-dummy.m */; };
+		C928A3B2FB27C4B7BD6D597DC37F07CE /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C9B1E7100FD9D22BDB3994BEE96AA5 /* UILayoutSupport+Extensions.swift */; };
+		CA06E7217FD02D89F166C3D6C62FB6E3 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B5C9EE3F34B1566C4BD363967B10B /* ConstraintRelatableTarget.swift */; };
+		CB76D85896B5F57CF3E06339D4100FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */; };
+		CC26573E47E064A394B20D49556106B0 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE70DD84FBC8EBC7099C00D1F37B29 /* ConstraintConfig.swift */; };
+		CC4556B4792DAF49713134F9C1D6ECA5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E18B3F985289A9E94AFAC3298D8074 /* SwiftyJSON.swift */; };
+		CE538FDB64C689A946750172FEAB0F77 /* RetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32F706C8D6E0BB087179A429C56EA9 /* RetryHandler.swift */; };
+		CF8348767B9A03127B24CDED01778EAF /* SwiftyJSON-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2601DDA1A1681BE159D89C25F61C00 /* SwiftyJSON-tvOS-dummy.m */; };
+		CF996285CB2CFABC95780F97417E86B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */; };
+		D0D10BF3DD68CF6A8657766ADB2F058D /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75ABF669946C1C5A3EF92713706E1FC /* WebSocket.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D8529D9D86B7EF0442A6083BC065C1A6 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A240D872324233EC3822819F36DE00 /* ConstraintView+Extensions.swift */; };
+		DB645DAA6C5E942E27935C44E017AB10 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D8EAC70FE5FF709E0DE8AA5B3F8D2B /* LayoutConstraint.swift */; };
+		DED2244C4A633A01E13CF08066C89565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */; };
+		DFF40ECFAD641E376E6724692722F71A /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F0191474FCBFF4F22B0EA93A67F15 /* ConstraintLayoutSupportDSL.swift */; };
+		E124E73F8B733C13338382494A28B80D /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17702FF5F90D50AC8E8C97356D01F8 /* ConstraintView.swift */; };
+		E36E41A5EF749333DE43CCB19136A872 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB60CED2468B10D5A81ACEF86BDD511 /* ConstraintInsetTarget.swift */; };
+		E37A5EB8D614BC7C6CA6F6133213D6A1 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861F9E5B8DE76309E31170AF556563D /* ConstraintViewDSL.swift */; };
+		ED29803DF6730E881A50D202851ACD45 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191AEB1CF6E9CBFEA4C50DC19066F011 /* ConstraintDescription.swift */; };
+		F0B3DED243C730837591746A393C0B46 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44633D5267F394FBD14BA136A3D2E207 /* ConstraintInsets.swift */; };
+		F0E9F839F04DF8855C97C4B1C45C09E7 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8C40FE967923957B9C84AFFD1F3284 /* ConstraintConstantTarget.swift */; };
+		F1524F31DBF8744894C916452C53CF2F /* Pods-ActionCableClient-Example-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE32E99896742AD1F6FF1E8ACFD60BDE /* Pods-ActionCableClient-Example-tvOS-dummy.m */; };
+		F1545428A2D7EAC4849276B05EDE4EBA /* SwiftyJSON-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFB117FE4B09A60DADA6C637E9CA9CC /* SwiftyJSON-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B5EBB424F15EDE2280C23B3571B09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */; };
+		F4E05A5658B8B86AB1E21D4DB890AB5B /* SwiftyJSON-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E271ED78BA20F18D7AEE2B2C5AB8 /* SwiftyJSON-iOS-dummy.m */; };
+		F84AAB1ACF4C2AC0751741FF386250EC /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472E8F0842F2420D9124C5A5584DAFF /* ConstraintLayoutGuide+Extensions.swift */; };
+		FB8DADC4CEE893475668FEF6EB04B212 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8658F3FAC2DD1598D00D3866C2F7C /* ConstraintMakerExtendable.swift */; };
+		FC7A5FC85AD6FFA4028FBB5408B8CD93 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7C0EAB3F56EEABC8E767DDD8E6602 /* ConstraintLayoutGuide.swift */; };
+		FD112EA184504B465D12BC8682154991 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A240D872324233EC3822819F36DE00 /* ConstraintView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594F41D716A8544B108968D067B66EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCF190C5EA1F967D2E10DAED9E0E79B;
+			remoteInfo = "SwiftyJSON-iOS";
+		};
+		745DEE7A056A63C508E8934B3E5656FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838B0789A7873B54733EF228834132F3;
+			remoteInfo = "Starscream-iOS";
+		};
+		95163F091C95AE8E7B3C9F33898BECA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD8DBF0177E5410FF543D386FD80E29;
+			remoteInfo = "Starscream-tvOS";
+		};
+		AD1E8A6E35DE786433526CE415887EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DA9815EC4967E326E800138D4598A3;
+			remoteInfo = "SnapKit-tvOS";
+		};
+		C800A7381BFBA32F8C5D18AC04DD6109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A842023E1F8935138139E27621604A;
+			remoteInfo = "ActionCableClient-iOS";
+		};
+		E02163FD4F5C3725D8737AFAB99111DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17866E21AC318EE6564FE61DAE0F06DC;
+			remoteInfo = "ActionCableClient-tvOS";
+		};
+		E62D760B0FEEE434AE1208A02E837E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E11AECFF6378E1778C962B0A76EF25E0;
+			remoteInfo = "SnapKit-iOS";
+		};
+		E991F83BA47C527D7C75CFC69458A125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838B0789A7873B54733EF228834132F3;
+			remoteInfo = "Starscream-iOS";
+		};
+		E9A12EA4ED93C7128BBAC630B9756AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD8DBF0177E5410FF543D386FD80E29;
+			remoteInfo = "Starscream-tvOS";
+		};
+		F79DB671D2129210FA81ABC02B40952E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305EE27E131CF1F69F27C5FFA801D09F;
+			remoteInfo = "SwiftyJSON-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017869B65FEB2C61A36884CA5DCE3AF2 /* SnapKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		04F7C0EAB3F56EEABC8E767DDD8E6602 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		07325FD837DD33549C66F93609D94E1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D8EAC70FE5FF709E0DE8AA5B3F8D2B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		0F17702FF5F90D50AC8E8C97356D01F8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		12473E186622DDB8BA67F183D6C15251 /* Starscream-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "Starscream-tvOS.modulemap"; path = "../Starscream-tvOS/Starscream-tvOS.modulemap"; sourceTree = "<group>"; };
+		1528019035422571A3302F56169CE75A /* SwiftyJSON-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftyJSON-iOS.xcconfig"; sourceTree = "<group>"; };
+		155C99CC1837CECB100D4C7EA0E2A00F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SwiftyJSON-tvOS/Info.plist"; sourceTree = "<group>"; };
+		1861F9E5B8DE76309E31170AF556563D /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		191AEB1CF6E9CBFEA4C50DC19066F011 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		1AE36D6552C10E947502AAEFE2A235A1 /* SwiftyJSON-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-iOS-prefix.pch"; sourceTree = "<group>"; };
+		23CBE9E9A14D655011FA6C2C594EB9E8 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		23E2CB8A727B341D0BDBC0582D275FB8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = "SwiftyJSON-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D34DF509CDB08C084CED7A2F9C5780 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		275F0191474FCBFF4F22B0EA93A67F15 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		2A3C2AB003897EAEBD2652951A47EF9E /* SwiftyJSON-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftyJSON-tvOS.xcconfig"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS.xcconfig"; sourceTree = "<group>"; };
+		2A6AE5F6F810049AB0DB543F2D08E139 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SnapKit-tvOS/Info.plist"; sourceTree = "<group>"; };
+		2CBC51AAD214F68BF6DFDE62443267CA /* Starscream-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Starscream-tvOS-prefix.pch"; path = "../Starscream-tvOS/Starscream-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		2D0FA0AFF65B48426005F9F436606DAA /* ActionCableClient-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionCableClient-iOS.xcconfig"; sourceTree = "<group>"; };
+		2D824D536BBBBF347803B90FC9D1CB3D /* Pods-ActionCableClient-Example-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionCableClient-Example-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		2FE1F12A60D7121DCF19E3271E32FECA /* ActionCableClient-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionCableClient-iOS-umbrella.h"; sourceTree = "<group>"; };
+		329C2EE2CDF05625CB156EBF4D00E508 /* Pods_ActionCableClient_Example_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionCableClient_Example_tvOS.framework; path = "Pods-ActionCableClient-Example-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3AFB117FE4B09A60DADA6C637E9CA9CC /* SwiftyJSON-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-iOS-umbrella.h"; sourceTree = "<group>"; };
+		3C2601DDA1A1681BE159D89C25F61C00 /* SwiftyJSON-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftyJSON-tvOS-dummy.m"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-dummy.m"; sourceTree = "<group>"; };
+		3EB60CED2468B10D5A81ACEF86BDD511 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		41CA768C4A793BC237C45E5B7AA1CA94 /* Pods-ActionCableClient-Example-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionCableClient-Example-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43631BC3B5DD33433354316A0565A9BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Starscream-tvOS/Info.plist"; sourceTree = "<group>"; };
+		44633D5267F394FBD14BA136A3D2E207 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		469EE5D900669359C348744CF7503D06 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		502231A16C9451395F15AECAB6F897C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A7C7E4B5676F640B57A73CFC6DC6EF /* ActionCableClient-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ActionCableClient-tvOS-umbrella.h"; path = "../ActionCableClient-tvOS/ActionCableClient-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		522583F66BED94FE4B27F7F1601819E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5290858780D0BF62EEF27494C443DA79 /* JSONSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializer.swift; path = Source/Classes/JSONSerializer.swift; sourceTree = "<group>"; };
+		576DD087A966639528009133533F7523 /* SwiftyJSON-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-tvOS-prefix.pch"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		59CF73EFC1B63BE9417FBAAEE059F70E /* ActionCableClient-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ActionCableClient-tvOS.xcconfig"; path = "../ActionCableClient-tvOS/ActionCableClient-tvOS.xcconfig"; sourceTree = "<group>"; };
+		5DC067901A8BEE90BAFF8457F3A142B5 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Classes/Constants.swift; sourceTree = "<group>"; };
+		5F5FDF727ECD52D34F68C2BD5EAD8802 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = "Starscream-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F76EBDF6D4E5F5037A3DE82AE3658C /* Starscream-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Starscream-iOS.modulemap"; sourceTree = "<group>"; };
+		63A240D872324233EC3822819F36DE00 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		6BEB996F8E7488021F8DDE367CD68790 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = "SnapKit-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FCBA6C79EA1A5239C2BA151D8D1FF9B /* ActionCableClient-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ActionCableClient-tvOS-dummy.m"; path = "../ActionCableClient-tvOS/ActionCableClient-tvOS-dummy.m"; sourceTree = "<group>"; };
+		721735A8575BB84BA223F0B32F204FFF /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		7393ACFCCBAB45AFEF4D8C41D42C5AC6 /* ActionCableClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionCableClient.framework; path = "ActionCableClient-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F95A869AD2A4EBD434377EC9D290C0 /* SnapKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		73FD4923E3895885F596FA1E9F0015CA /* Starscream-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-iOS-dummy.m"; sourceTree = "<group>"; };
+		743C11CEBA7C9CA71015C80CE94FDA4C /* Pods-ActionCableClient-Example-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionCableClient-Example-tvOS-resources.sh"; sourceTree = "<group>"; };
+		7472E8F0842F2420D9124C5A5584DAFF /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		7BB1F513F9C0DF83FB97A296D1CA6B2A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		7BD1F94AC7FCCAA8CE81205E2DDBA7F2 /* Starscream-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Starscream-iOS.xcconfig"; sourceTree = "<group>"; };
+		8053EA588715216734129F6A1D8AE473 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = "SwiftyJSON-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807F7E8AB411517FD521E38396533BF6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		831AEB4F8FCBF0C8C82C02251ECA2F2A /* ActionCableClient-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionCableClient-iOS-dummy.m"; sourceTree = "<group>"; };
+		87DCC88E126ED7C409CF71D4A5C3565A /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A03299D00DF44FDE35AFF3FE77FDF2C /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		8AE74627DFAEAA5814859D95CABCE0C1 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		8AF6953414920129B3C0B76808C72F12 /* ActionCableClient-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "ActionCableClient-tvOS.modulemap"; path = "../ActionCableClient-tvOS/ActionCableClient-tvOS.modulemap"; sourceTree = "<group>"; };
+		8BD768E4FCF4CA7518B335A58189D550 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Classes/Error.swift; sourceTree = "<group>"; };
+		8C5A1E77E4DD769D079275514E7CFCFA /* Pods-ActionCableClient-Example-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionCableClient-Example-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8C5F6D2DD422AFE222EF91957CAEC4A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../ActionCableClient-tvOS/Info.plist"; sourceTree = "<group>"; };
+		8CE10094CA39BEFFE56214ECCD2BBB9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900E97F40D621E56B8F3D599135A3286 /* Pods-ActionCableClient-Example-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionCableClient-Example-iOS-resources.sh"; sourceTree = "<group>"; };
+		9231B1E03DCAE50C78DE58BEB82F312F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927091E64B50C9768FCE16C797E362D4 /* Starscream-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Starscream-tvOS-umbrella.h"; path = "../Starscream-tvOS/Starscream-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		92CA6704AA311F311A2CC8DA8EBA5A7D /* Starscream-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-iOS-prefix.pch"; sourceTree = "<group>"; };
+		936CB19CC9014ACB93A1C4A81917C43A /* SnapKit-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SnapKit-tvOS.xcconfig"; path = "../SnapKit-tvOS/SnapKit-tvOS.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953C29A311196E0198BED245F18BFEDC /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		95EE6B8A16813D60CBDB9A584AE1A1C7 /* Pods-ActionCableClient-Example-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionCableClient-Example-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		96C72EEF6264993F3ECAFAEA2902799E /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		9AEE70DD84FBC8EBC7099C00D1F37B29 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		9BDBBF9CBB1B8D547D2D175F35C7FA62 /* SnapKit-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-tvOS-prefix.pch"; path = "../SnapKit-tvOS/SnapKit-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		9CA13C24C40728097382AA066F7E877E /* Pods-ActionCableClient-Example-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionCableClient-Example-iOS-dummy.m"; sourceTree = "<group>"; };
+		A087B5B3BFE3B62573D942BC64B92987 /* SwiftyJSON-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftyJSON-tvOS-umbrella.h"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		A246DA665229728C8E657E646D6D18DD /* SwiftyJSON-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "SwiftyJSON-tvOS.modulemap"; path = "../SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap"; sourceTree = "<group>"; };
+		A4134562379B3C5C1CCC873B8A1AB4C1 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		A5DA21D7612AC9D76BDA5F8738D49A80 /* Pods-ActionCableClient-Example-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionCableClient-Example-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8434FB63D6910EA50E947A12CBAE8E4 /* SnapKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		A8DE7914AD002843CF68B8AA15B30032 /* Starscream-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Starscream-tvOS-dummy.m"; path = "../Starscream-tvOS/Starscream-tvOS-dummy.m"; sourceTree = "<group>"; };
+		ABD4285C74EBC9C27C9DC8003999D3B5 /* Pods-ActionCableClient-Example-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionCableClient-Example-iOS-umbrella.h"; sourceTree = "<group>"; };
+		AF8C40FE967923957B9C84AFFD1F3284 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B10CF5B4C728B77E4C29868907E72F51 /* Pods-ActionCableClient-Example-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionCableClient-Example-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B2C9B1E7100FD9D22BDB3994BEE96AA5 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		B45D47FE1704D691F8221357D4A93061 /* Pods-ActionCableClient-Example-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ActionCableClient-Example-tvOS.modulemap"; sourceTree = "<group>"; };
+		B494DAD8568C17A42AD6F2C204529BEC /* Pods-ActionCableClient-Example-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionCableClient-Example-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B508D69E71BB14846F9F611A90F062C4 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		B517CF1DF03BD7166328CFC2DFC241D7 /* ActionCableClient-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionCableClient-iOS-prefix.pch"; sourceTree = "<group>"; };
+		BDA6E271ED78BA20F18D7AEE2B2C5AB8 /* SwiftyJSON-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-iOS-dummy.m"; sourceTree = "<group>"; };
+		C0D3DF34C919B07FD38A58C90C4AFE5B /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		C2B5AE2505AC754FDA41966856251D71 /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = Source/Classes/Channel.swift; sourceTree = "<group>"; };
+		C30B5C9EE3F34B1566C4BD363967B10B /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		C84531193BF9729185B907ECE907DDCC /* ActionCableClient-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ActionCableClient-tvOS-prefix.pch"; path = "../ActionCableClient-tvOS/ActionCableClient-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		C90AB62816C313324C367974255B89B4 /* SnapKit-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SnapKit-tvOS-umbrella.h"; path = "../SnapKit-tvOS/SnapKit-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		D0E18B3F985289A9E94AFAC3298D8074 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D1092EF8D9FCC2A42A0BC57626E3D017 /* Starscream-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Starscream-tvOS.xcconfig"; path = "../Starscream-tvOS/Starscream-tvOS.xcconfig"; sourceTree = "<group>"; };
+		D35F4224535F4859990F7B5E2A4BF84E /* SnapKit-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SnapKit-tvOS-dummy.m"; path = "../SnapKit-tvOS/SnapKit-tvOS-dummy.m"; sourceTree = "<group>"; };
+		D375BB4978FF9F794EFCE89D4FDD81D8 /* SnapKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SnapKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		D44D7DCEA812C1B75C057A4B4FACA746 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = "Starscream-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51C62A5C70444516FDB6FA8488C75ED /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		D54396532941B064BADF71920834CBBD /* SwiftyJSON-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SwiftyJSON-iOS.modulemap"; sourceTree = "<group>"; };
+		D78EFECC709486B2E1B2B6CE12D8CCB8 /* ActionCableClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionCableClient.framework; path = "ActionCableClient-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB824189F4F12BB67AF7A5CB4B31B9C4 /* Pods-ActionCableClient-Example-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionCableClient-Example-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		DCBBEBD8FCCC6F2EE290C9EB0622AFB1 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		DE32E99896742AD1F6FF1E8ACFD60BDE /* Pods-ActionCableClient-Example-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionCableClient-Example-tvOS-dummy.m"; sourceTree = "<group>"; };
+		E2C1F18F06FB2FDDC5580FA9E1AA58CA /* SnapKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SnapKit-iOS.modulemap"; sourceTree = "<group>"; };
+		E39E1F6FC2C7A284540E2BEED2B8DC51 /* Starscream-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-iOS-umbrella.h"; sourceTree = "<group>"; };
+		E5C65C07B9683804DA70C12A826BE744 /* ActionCableClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionCableClient.swift; path = Source/Classes/ActionCableClient.swift; sourceTree = "<group>"; };
+		E67A1B8EF1E8258698F3EF024221FAC3 /* SnapKit-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "SnapKit-tvOS.modulemap"; path = "../SnapKit-tvOS/SnapKit-tvOS.modulemap"; sourceTree = "<group>"; };
+		E75ABF669946C1C5A3EF92713706E1FC /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		E9329DA2AA6F3A7F6A4BF2CD730C0D66 /* Pods-ActionCableClient-Example-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionCableClient-Example-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EA41B63776F9623D227BF7BB1AD059F6 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = "SnapKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED91FB3748D77D4202398A7C88CC5BAA /* Pods-ActionCableClient-Example-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ActionCableClient-Example-iOS.modulemap"; sourceTree = "<group>"; };
+		EE4A1166873A46B26B204929D5EC3163 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		F187F15C47116C1FD7795E250DD94763 /* Pods-ActionCableClient-Example-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionCableClient-Example-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E366E069BED2316ACD3918D4019FC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23A0CCE2B37BC4E946244A64D465C1D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		F31358034C786F6B8B8B9CF569F3DF92 /* Pods-ActionCableClient-Example-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionCableClient-Example-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		F70A507A4A65F6B2F0967F074B4FA465 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		FA2ACF1D185BD7F34D9476C96E17D7F1 /* ActionCableClient-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionCableClient-iOS.modulemap"; sourceTree = "<group>"; };
+		FAA8658F3FAC2DD1598D00D3866C2F7C /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		FC32F706C8D6E0BB087179A429C56EA9 /* RetryHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryHandler.swift; path = Source/Classes/RetryHandler.swift; sourceTree = "<group>"; };
+		FFE1562234274377283696AF9CF538D5 /* Pods_ActionCableClient_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionCableClient_Example_iOS.framework; path = "Pods-ActionCableClient-Example-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1447748EEF6199D2DBB7B979E544EA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD5A592D31FCA439BB94412D5BD927F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299F21E55E109949E70FD6C7EB8D2CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF996285CB2CFABC95780F97417E86B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D506A4C6D6FD6FB455F4D101568ABEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40127A919A2C42608FE1B32D2B7867DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743F61539CC4C820503ECA5E0F78E02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B5EBB424F15EDE2280C23B3571B09D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1CE02EEF523EC06F95748999C08986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76D85896B5F57CF3E06339D4100FE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9028AD12EC3780FB1F6752FC4B00FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263B104F67A930DFB1DFD2A12D578550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DAB7A41207B383F65734D31C70F53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED2244C4A633A01E13CF08066C89565 /* Foundation.framework in Frameworks */,
+				90A5899FACD42F158232F5EAD7C2C393 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0EE4F0719EDC8D1A3E2FC2B28667D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7D349B82B9678A71B38249E7186018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9AD16C0BF29E54239C950575B64DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD2BB7B809C6B7E8FE73DA6EA5A770D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEFB9DEFEC7F00F0BAB35894C61BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D9AAE65956B8D9CA16E0BC7EEE4124 /* Foundation.framework in Frameworks */,
+				09AEDB0F2B807074BDD73C167532E952 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0014F224D5950CA2F520590152681ECA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87DCC88E126ED7C409CF71D4A5C3565A /* Starscream.framework */,
+				4193637749CE58D822FDFB8B2B7A4566 /* iOS */,
+				F18CB0C3E4FA3BB0226F0485730CFCF3 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11C35C72CD887AA176FA728D99298117 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D0E18B3F985289A9E94AFAC3298D8074 /* SwiftyJSON.swift */,
+				C84C9A3655D9E623333A30969FDBD70F /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		12A0D36F6F782A8F39D7B99F1E6F4615 /* Pods-ActionCableClient-Example-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1E366E069BED2316ACD3918D4019FC2 /* Info.plist */,
+				ED91FB3748D77D4202398A7C88CC5BAA /* Pods-ActionCableClient-Example-iOS.modulemap */,
+				41CA768C4A793BC237C45E5B7AA1CA94 /* Pods-ActionCableClient-Example-iOS-acknowledgements.markdown */,
+				A5DA21D7612AC9D76BDA5F8738D49A80 /* Pods-ActionCableClient-Example-iOS-acknowledgements.plist */,
+				9CA13C24C40728097382AA066F7E877E /* Pods-ActionCableClient-Example-iOS-dummy.m */,
+				F31358034C786F6B8B8B9CF569F3DF92 /* Pods-ActionCableClient-Example-iOS-frameworks.sh */,
+				900E97F40D621E56B8F3D599135A3286 /* Pods-ActionCableClient-Example-iOS-resources.sh */,
+				ABD4285C74EBC9C27C9DC8003999D3B5 /* Pods-ActionCableClient-Example-iOS-umbrella.h */,
+				E9329DA2AA6F3A7F6A4BF2CD730C0D66 /* Pods-ActionCableClient-Example-iOS.debug.xcconfig */,
+				B10CF5B4C728B77E4C29868907E72F51 /* Pods-ActionCableClient-Example-iOS.release.xcconfig */,
+			);
+			name = "Pods-ActionCableClient-Example-iOS";
+			path = "Target Support Files/Pods-ActionCableClient-Example-iOS";
+			sourceTree = "<group>";
+		};
+		3F234EF5DF8E8BB0F125AF7798B5D4F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E0F9B6BEF73200A44F3798F036E96A5 /* ActionCableClient */,
+				6B13D63A1623F22B0C1D7A901CF6B3EF /* SnapKit */,
+				5A4047DD6B09D1AC127F82E6B2D702CC /* Starscream */,
+				11C35C72CD887AA176FA728D99298117 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4193637749CE58D822FDFB8B2B7A4566 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				393C1233EA13866FD08CB648BDFC8A62 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57A7BFB6B29B88521D3C61CCFA4A2752 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE10094CA39BEFFE56214ECCD2BBB9F /* Info.plist */,
+				2A6AE5F6F810049AB0DB543F2D08E139 /* Info.plist */,
+				E2C1F18F06FB2FDDC5580FA9E1AA58CA /* SnapKit-iOS.modulemap */,
+				D375BB4978FF9F794EFCE89D4FDD81D8 /* SnapKit-iOS.xcconfig */,
+				A8434FB63D6910EA50E947A12CBAE8E4 /* SnapKit-iOS-dummy.m */,
+				017869B65FEB2C61A36884CA5DCE3AF2 /* SnapKit-iOS-prefix.pch */,
+				73F95A869AD2A4EBD434377EC9D290C0 /* SnapKit-iOS-umbrella.h */,
+				E67A1B8EF1E8258698F3EF024221FAC3 /* SnapKit-tvOS.modulemap */,
+				936CB19CC9014ACB93A1C4A81917C43A /* SnapKit-tvOS.xcconfig */,
+				D35F4224535F4859990F7B5E2A4BF84E /* SnapKit-tvOS-dummy.m */,
+				9BDBBF9CBB1B8D547D2D175F35C7FA62 /* SnapKit-tvOS-prefix.pch */,
+				C90AB62816C313324C367974255B89B4 /* SnapKit-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit-iOS";
+			sourceTree = "<group>";
+		};
+		5A4047DD6B09D1AC127F82E6B2D702CC /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				D51C62A5C70444516FDB6FA8488C75ED /* SSLSecurity.swift */,
+				E75ABF669946C1C5A3EF92713706E1FC /* WebSocket.swift */,
+				B10CA3469572A3D7F71AAA2ECB10A682 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		5E0F9B6BEF73200A44F3798F036E96A5 /* ActionCableClient */ = {
+			isa = PBXGroup;
+			children = (
+				E5C65C07B9683804DA70C12A826BE744 /* ActionCableClient.swift */,
+				C2B5AE2505AC754FDA41966856251D71 /* Channel.swift */,
+				5DC067901A8BEE90BAFF8457F3A142B5 /* Constants.swift */,
+				8BD768E4FCF4CA7518B335A58189D550 /* Error.swift */,
+				5290858780D0BF62EEF27494C443DA79 /* JSONSerializer.swift */,
+				FC32F706C8D6E0BB087179A429C56EA9 /* RetryHandler.swift */,
+				C0564916E1C511C6FB0A3223382AEC24 /* Support Files */,
+			);
+			name = ActionCableClient;
+			path = ActionCableClient;
+			sourceTree = "<group>";
+		};
+		6B13D63A1623F22B0C1D7A901CF6B3EF /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				F70A507A4A65F6B2F0967F074B4FA465 /* Constraint.swift */,
+				A4134562379B3C5C1CCC873B8A1AB4C1 /* ConstraintAttributes.swift */,
+				9AEE70DD84FBC8EBC7099C00D1F37B29 /* ConstraintConfig.swift */,
+				AF8C40FE967923957B9C84AFFD1F3284 /* ConstraintConstantTarget.swift */,
+				191AEB1CF6E9CBFEA4C50DC19066F011 /* ConstraintDescription.swift */,
+				953C29A311196E0198BED245F18BFEDC /* ConstraintDSL.swift */,
+				44633D5267F394FBD14BA136A3D2E207 /* ConstraintInsets.swift */,
+				3EB60CED2468B10D5A81ACEF86BDD511 /* ConstraintInsetTarget.swift */,
+				C0D3DF34C919B07FD38A58C90C4AFE5B /* ConstraintItem.swift */,
+				04F7C0EAB3F56EEABC8E767DDD8E6602 /* ConstraintLayoutGuide.swift */,
+				7472E8F0842F2420D9124C5A5584DAFF /* ConstraintLayoutGuide+Extensions.swift */,
+				96C72EEF6264993F3ECAFAEA2902799E /* ConstraintLayoutGuideDSL.swift */,
+				8A03299D00DF44FDE35AFF3FE77FDF2C /* ConstraintLayoutSupport.swift */,
+				275F0191474FCBFF4F22B0EA93A67F15 /* ConstraintLayoutSupportDSL.swift */,
+				807F7E8AB411517FD521E38396533BF6 /* ConstraintMaker.swift */,
+				24D34DF509CDB08C084CED7A2F9C5780 /* ConstraintMakerEditable.swift */,
+				FAA8658F3FAC2DD1598D00D3866C2F7C /* ConstraintMakerExtendable.swift */,
+				721735A8575BB84BA223F0B32F204FFF /* ConstraintMakerFinalizable.swift */,
+				8AE74627DFAEAA5814859D95CABCE0C1 /* ConstraintMakerPriortizable.swift */,
+				DCBBEBD8FCCC6F2EE290C9EB0622AFB1 /* ConstraintMakerRelatable.swift */,
+				7BB1F513F9C0DF83FB97A296D1CA6B2A /* ConstraintMultiplierTarget.swift */,
+				23CBE9E9A14D655011FA6C2C594EB9E8 /* ConstraintOffsetTarget.swift */,
+				F23A0CCE2B37BC4E946244A64D465C1D /* ConstraintPriorityTarget.swift */,
+				C30B5C9EE3F34B1566C4BD363967B10B /* ConstraintRelatableTarget.swift */,
+				EE4A1166873A46B26B204929D5EC3163 /* ConstraintRelation.swift */,
+				0F17702FF5F90D50AC8E8C97356D01F8 /* ConstraintView.swift */,
+				63A240D872324233EC3822819F36DE00 /* ConstraintView+Extensions.swift */,
+				1861F9E5B8DE76309E31170AF556563D /* ConstraintViewDSL.swift */,
+				469EE5D900669359C348744CF7503D06 /* Debugging.swift */,
+				09D8EAC70FE5FF709E0DE8AA5B3F8D2B /* LayoutConstraint.swift */,
+				B508D69E71BB14846F9F611A90F062C4 /* LayoutConstraintItem.swift */,
+				B2C9B1E7100FD9D22BDB3994BEE96AA5 /* UILayoutSupport+Extensions.swift */,
+				57A7BFB6B29B88521D3C61CCFA4A2752 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		6B4E78E4697FB5C0A7E96B1F4829B255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D78EFECC709486B2E1B2B6CE12D8CCB8 /* ActionCableClient.framework */,
+				7393ACFCCBAB45AFEF4D8C41D42C5AC6 /* ActionCableClient.framework */,
+				FFE1562234274377283696AF9CF538D5 /* Pods_ActionCableClient_Example_iOS.framework */,
+				329C2EE2CDF05625CB156EBF4D00E508 /* Pods_ActionCableClient_Example_tvOS.framework */,
+				EA41B63776F9623D227BF7BB1AD059F6 /* SnapKit.framework */,
+				6BEB996F8E7488021F8DDE367CD68790 /* SnapKit.framework */,
+				D44D7DCEA812C1B75C057A4B4FACA746 /* Starscream.framework */,
+				5F5FDF727ECD52D34F68C2BD5EAD8802 /* Starscream.framework */,
+				23E2CB8A727B341D0BDBC0582D275FB8 /* SwiftyJSON.framework */,
+				8053EA588715216734129F6A1D8AE473 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0014F224D5950CA2F520590152681ECA /* Frameworks */,
+				3F234EF5DF8E8BB0F125AF7798B5D4F1 /* Pods */,
+				6B4E78E4697FB5C0A7E96B1F4829B255 /* Products */,
+				969FF87A0E2615D132A5D75CD7560709 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		969FF87A0E2615D132A5D75CD7560709 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A0D36F6F782A8F39D7B99F1E6F4615 /* Pods-ActionCableClient-Example-iOS */,
+				9F36E5001C3CDF27F94DAB1B3D0CFC6F /* Pods-ActionCableClient-Example-tvOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F36E5001C3CDF27F94DAB1B3D0CFC6F /* Pods-ActionCableClient-Example-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				07325FD837DD33549C66F93609D94E1B /* Info.plist */,
+				B45D47FE1704D691F8221357D4A93061 /* Pods-ActionCableClient-Example-tvOS.modulemap */,
+				B494DAD8568C17A42AD6F2C204529BEC /* Pods-ActionCableClient-Example-tvOS-acknowledgements.markdown */,
+				95EE6B8A16813D60CBDB9A584AE1A1C7 /* Pods-ActionCableClient-Example-tvOS-acknowledgements.plist */,
+				DE32E99896742AD1F6FF1E8ACFD60BDE /* Pods-ActionCableClient-Example-tvOS-dummy.m */,
+				DB824189F4F12BB67AF7A5CB4B31B9C4 /* Pods-ActionCableClient-Example-tvOS-frameworks.sh */,
+				743C11CEBA7C9CA71015C80CE94FDA4C /* Pods-ActionCableClient-Example-tvOS-resources.sh */,
+				2D824D536BBBBF347803B90FC9D1CB3D /* Pods-ActionCableClient-Example-tvOS-umbrella.h */,
+				F187F15C47116C1FD7795E250DD94763 /* Pods-ActionCableClient-Example-tvOS.debug.xcconfig */,
+				8C5A1E77E4DD769D079275514E7CFCFA /* Pods-ActionCableClient-Example-tvOS.release.xcconfig */,
+			);
+			name = "Pods-ActionCableClient-Example-tvOS";
+			path = "Target Support Files/Pods-ActionCableClient-Example-tvOS";
+			sourceTree = "<group>";
+		};
+		B10CA3469572A3D7F71AAA2ECB10A682 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				522583F66BED94FE4B27F7F1601819E7 /* Info.plist */,
+				43631BC3B5DD33433354316A0565A9BD /* Info.plist */,
+				62F76EBDF6D4E5F5037A3DE82AE3658C /* Starscream-iOS.modulemap */,
+				7BD1F94AC7FCCAA8CE81205E2DDBA7F2 /* Starscream-iOS.xcconfig */,
+				73FD4923E3895885F596FA1E9F0015CA /* Starscream-iOS-dummy.m */,
+				92CA6704AA311F311A2CC8DA8EBA5A7D /* Starscream-iOS-prefix.pch */,
+				E39E1F6FC2C7A284540E2BEED2B8DC51 /* Starscream-iOS-umbrella.h */,
+				12473E186622DDB8BA67F183D6C15251 /* Starscream-tvOS.modulemap */,
+				D1092EF8D9FCC2A42A0BC57626E3D017 /* Starscream-tvOS.xcconfig */,
+				A8DE7914AD002843CF68B8AA15B30032 /* Starscream-tvOS-dummy.m */,
+				2CBC51AAD214F68BF6DFDE62443267CA /* Starscream-tvOS-prefix.pch */,
+				927091E64B50C9768FCE16C797E362D4 /* Starscream-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream-iOS";
+			sourceTree = "<group>";
+		};
+		C0564916E1C511C6FB0A3223382AEC24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2ACF1D185BD7F34D9476C96E17D7F1 /* ActionCableClient-iOS.modulemap */,
+				2D0FA0AFF65B48426005F9F436606DAA /* ActionCableClient-iOS.xcconfig */,
+				831AEB4F8FCBF0C8C82C02251ECA2F2A /* ActionCableClient-iOS-dummy.m */,
+				B517CF1DF03BD7166328CFC2DFC241D7 /* ActionCableClient-iOS-prefix.pch */,
+				2FE1F12A60D7121DCF19E3271E32FECA /* ActionCableClient-iOS-umbrella.h */,
+				8AF6953414920129B3C0B76808C72F12 /* ActionCableClient-tvOS.modulemap */,
+				59CF73EFC1B63BE9417FBAAEE059F70E /* ActionCableClient-tvOS.xcconfig */,
+				6FCBA6C79EA1A5239C2BA151D8D1FF9B /* ActionCableClient-tvOS-dummy.m */,
+				C84531193BF9729185B907ECE907DDCC /* ActionCableClient-tvOS-prefix.pch */,
+				50A7C7E4B5676F640B57A73CFC6DC6EF /* ActionCableClient-tvOS-umbrella.h */,
+				8C5F6D2DD422AFE222EF91957CAEC4A6 /* Info.plist */,
+				502231A16C9451395F15AECAB6F897C6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionCableClient-iOS";
+			sourceTree = "<group>";
+		};
+		C84C9A3655D9E623333A30969FDBD70F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9231B1E03DCAE50C78DE58BEB82F312F /* Info.plist */,
+				155C99CC1837CECB100D4C7EA0E2A00F /* Info.plist */,
+				D54396532941B064BADF71920834CBBD /* SwiftyJSON-iOS.modulemap */,
+				1528019035422571A3302F56169CE75A /* SwiftyJSON-iOS.xcconfig */,
+				BDA6E271ED78BA20F18D7AEE2B2C5AB8 /* SwiftyJSON-iOS-dummy.m */,
+				1AE36D6552C10E947502AAEFE2A235A1 /* SwiftyJSON-iOS-prefix.pch */,
+				3AFB117FE4B09A60DADA6C637E9CA9CC /* SwiftyJSON-iOS-umbrella.h */,
+				A246DA665229728C8E657E646D6D18DD /* SwiftyJSON-tvOS.modulemap */,
+				2A3C2AB003897EAEBD2652951A47EF9E /* SwiftyJSON-tvOS.xcconfig */,
+				3C2601DDA1A1681BE159D89C25F61C00 /* SwiftyJSON-tvOS-dummy.m */,
+				576DD087A966639528009133533F7523 /* SwiftyJSON-tvOS-prefix.pch */,
+				A087B5B3BFE3B62573D942BC64B92987 /* SwiftyJSON-tvOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON-iOS";
+			sourceTree = "<group>";
+		};
+		F18CB0C3E4FA3BB0226F0485730CFCF3 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE3AE6DFC4F7B4DA6F70F08605D342 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08D53957317C150576934E1F5E23F75C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897CE09EB7DA05663AD41C2940E247E4 /* Starscream-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2F1011176CC2C0A0B759D75BCEBC26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7034BAC1902034D221CBFC586AC4E12 /* Pods-ActionCableClient-Example-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FAC0E57834BCE8EBDF5A0EFDA6DE2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C36DD0D645865F4749ED684D64E707E /* SnapKit-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AD19C8535D5210122A162FC59BC6495 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9B0ACFF612E4882DD9F93F5E7DDA9A /* ActionCableClient-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A417309F343FC4CDB77BBDB2CF1007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C166E176BCEDE301044C6E78D28AA168 /* SnapKit-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ABFE004ABC1E455342C6EA019236CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1545428A2D7EAC4849276B05EDE4EBA /* SwiftyJSON-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687199949211121536E865460E7B2139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCA03CE2E990AEBB9165C07B30072BD /* SwiftyJSON-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E09044AE7AF9C0EBD7A4FC3D21A606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC0D7163B8A31FA1F063648AAA5199B /* Starscream-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F186863D0F01048DD24C7B9ECFE964F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C504C3DDEE690C01849CE95850C89E2 /* ActionCableClient-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA299926BF65ED41FC873C5A150D09CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD7592C769B23198CC777EAC16A1446 /* Pods-ActionCableClient-Example-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17866E21AC318EE6564FE61DAE0F06DC /* ActionCableClient-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892FBE5A06B909456A555C0652ADA98F /* Build configuration list for PBXNativeTarget "ActionCableClient-tvOS" */;
+			buildPhases = (
+				A3A16DE8D136CF278D8ABAFDBE15FFAD /* Sources */,
+				FCEEFB9DEFEC7F00F0BAB35894C61BEA /* Frameworks */,
+				F186863D0F01048DD24C7B9ECFE964F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049C7BD059D9F0FB936D16A3421795D0 /* PBXTargetDependency */,
+			);
+			name = "ActionCableClient-tvOS";
+			productName = "ActionCableClient-tvOS";
+			productReference = 7393ACFCCBAB45AFEF4D8C41D42C5AC6 /* ActionCableClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		305EE27E131CF1F69F27C5FFA801D09F /* SwiftyJSON-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A373D38510257DD199D0837EC97ABC11 /* Build configuration list for PBXNativeTarget "SwiftyJSON-tvOS" */;
+			buildPhases = (
+				2D7CBFFF110DE3F407725BE9C2FA17B4 /* Sources */,
+				1447748EEF6199D2DBB7B979E544EA56 /* Frameworks */,
+				687199949211121536E865460E7B2139 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-tvOS";
+			productName = "SwiftyJSON-tvOS";
+			productReference = 8053EA588715216734129F6A1D8AE473 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CD8DBF0177E5410FF543D386FD80E29 /* Starscream-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEEBC22F74F4305A06966BCD68C44AB /* Build configuration list for PBXNativeTarget "Starscream-tvOS" */;
+			buildPhases = (
+				5CB019F81FF67AD315FC586852FE1171 /* Sources */,
+				2D506A4C6D6FD6FB455F4D101568ABEA /* Frameworks */,
+				08D53957317C150576934E1F5E23F75C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-tvOS";
+			productName = "Starscream-tvOS";
+			productReference = 5F5FDF727ECD52D34F68C2BD5EAD8802 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		838B0789A7873B54733EF228834132F3 /* Starscream-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2D7941D9047172822C24B206F582CB /* Build configuration list for PBXNativeTarget "Starscream-iOS" */;
+			buildPhases = (
+				629173FF733159F999988D6227F81332 /* Sources */,
+				7A1CE02EEF523EC06F95748999C08986 /* Frameworks */,
+				77E09044AE7AF9C0EBD7A4FC3D21A606 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-iOS";
+			productName = "Starscream-iOS";
+			productReference = D44D7DCEA812C1B75C057A4B4FACA746 /* Starscream.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		903E61DAA44ACFFD147B6C0C16D09ACB /* Pods-ActionCableClient-Example-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CC0899B8BF7AB26FEE6B8A095A0349 /* Build configuration list for PBXNativeTarget "Pods-ActionCableClient-Example-tvOS" */;
+			buildPhases = (
+				381F3D94EAA84B163851EC55C3DEAE50 /* Sources */,
+				EC9AD16C0BF29E54239C950575B64DC7 /* Frameworks */,
+				FA299926BF65ED41FC873C5A150D09CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB6CB5F967E59878E5E36BFDC0B3378 /* PBXTargetDependency */,
+				8F020D92DAF708D1B9C4D4D92196705D /* PBXTargetDependency */,
+				36B2F4C5DB2A0C852C31E71E59C9460E /* PBXTargetDependency */,
+				514C94F78BB9CAE03AFA4385CC08547A /* PBXTargetDependency */,
+			);
+			name = "Pods-ActionCableClient-Example-tvOS";
+			productName = "Pods-ActionCableClient-Example-tvOS";
+			productReference = 329C2EE2CDF05625CB156EBF4D00E508 /* Pods_ActionCableClient_Example_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92DA9815EC4967E326E800138D4598A3 /* SnapKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAC2CFC4B64F45D6700D3EEB4C2E505 /* Build configuration list for PBXNativeTarget "SnapKit-tvOS" */;
+			buildPhases = (
+				4BE1FE21CC7AA74F5805F8C17996AB4E /* Sources */,
+				743F61539CC4C820503ECA5E0F78E02E /* Frameworks */,
+				10FAC0E57834BCE8EBDF5A0EFDA6DE2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapKit-tvOS";
+			productName = "SnapKit-tvOS";
+			productReference = 6BEB996F8E7488021F8DDE367CD68790 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DCF190C5EA1F967D2E10DAED9E0E79B /* SwiftyJSON-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD9F2E2B1D5508549C27DBBF7B22ADE /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */;
+			buildPhases = (
+				38637EA274569A8BCCDC569E14AF4361 /* Sources */,
+				DB0EE4F0719EDC8D1A3E2FC2B28667D4 /* Frameworks */,
+				62ABFE004ABC1E455342C6EA019236CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON-iOS";
+			productName = "SwiftyJSON-iOS";
+			productReference = 23E2CB8A727B341D0BDBC0582D275FB8 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A842023E1F8935138139E27621604A /* ActionCableClient-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC1C14C599AC99C55FE6F982751C21C /* Build configuration list for PBXNativeTarget "ActionCableClient-iOS" */;
+			buildPhases = (
+				2F6F8010A7D9DB8D87AEF1C2E75FE9E8 /* Sources */,
+				D7DAB7A41207B383F65734D31C70F53F /* Frameworks */,
+				1AD19C8535D5210122A162FC59BC6495 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C14F93E001A4D0700D0DE6994D62BDA /* PBXTargetDependency */,
+			);
+			name = "ActionCableClient-iOS";
+			productName = "ActionCableClient-iOS";
+			productReference = D78EFECC709486B2E1B2B6CE12D8CCB8 /* ActionCableClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E08ACA3537A47B4AFD95A4FD965316CE /* Pods-ActionCableClient-Example-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C21F318C612BC73FCD9A3E27B5BDC8C /* Build configuration list for PBXNativeTarget "Pods-ActionCableClient-Example-iOS" */;
+			buildPhases = (
+				8D92242710429BE1B820EBE28AA64814 /* Sources */,
+				A9028AD12EC3780FB1F6752FC4B00FD8 /* Frameworks */,
+				0E2F1011176CC2C0A0B759D75BCEBC26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82DEBC9F3BC374E64C687EEF50906DB /* PBXTargetDependency */,
+				545D92FFDA97C7080F51475BF0EA3BEE /* PBXTargetDependency */,
+				29773A160DD1BF8324A1293EDCF86DD5 /* PBXTargetDependency */,
+				B7573E4D1F1320F01AA0E31985AA4198 /* PBXTargetDependency */,
+			);
+			name = "Pods-ActionCableClient-Example-iOS";
+			productName = "Pods-ActionCableClient-Example-iOS";
+			productReference = FFE1562234274377283696AF9CF538D5 /* Pods_ActionCableClient_Example_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E11AECFF6378E1778C962B0A76EF25E0 /* SnapKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6388E697DE55BAC9C1134B308778BA /* Build configuration list for PBXNativeTarget "SnapKit-iOS" */;
+			buildPhases = (
+				B63C6A8B4C958AA33AEC6C9AAFA0BD63 /* Sources */,
+				299F21E55E109949E70FD6C7EB8D2CE8 /* Frameworks */,
+				58A417309F343FC4CDB77BBDB2CF1007 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnapKit-iOS";
+			productName = "SnapKit-iOS";
+			productReference = EA41B63776F9623D227BF7BB1AD059F6 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6B4E78E4697FB5C0A7E96B1F4829B255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A842023E1F8935138139E27621604A /* ActionCableClient-iOS */,
+				17866E21AC318EE6564FE61DAE0F06DC /* ActionCableClient-tvOS */,
+				E08ACA3537A47B4AFD95A4FD965316CE /* Pods-ActionCableClient-Example-iOS */,
+				903E61DAA44ACFFD147B6C0C16D09ACB /* Pods-ActionCableClient-Example-tvOS */,
+				E11AECFF6378E1778C962B0A76EF25E0 /* SnapKit-iOS */,
+				92DA9815EC4967E326E800138D4598A3 /* SnapKit-tvOS */,
+				838B0789A7873B54733EF228834132F3 /* Starscream-iOS */,
+				3CD8DBF0177E5410FF543D386FD80E29 /* Starscream-tvOS */,
+				9DCF190C5EA1F967D2E10DAED9E0E79B /* SwiftyJSON-iOS */,
+				305EE27E131CF1F69F27C5FFA801D09F /* SwiftyJSON-tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7CBFFF110DE3F407725BE9C2FA17B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8348767B9A03127B24CDED01778EAF /* SwiftyJSON-tvOS-dummy.m in Sources */,
+				29A009F1AC7201FE86A39B706BA3E259 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6F8010A7D9DB8D87AEF1C2E75FE9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB3B995E746CEFF6014559ACE0B72FE /* ActionCableClient-iOS-dummy.m in Sources */,
+				908136DEDC1F297A224C97D1B30E0657 /* ActionCableClient.swift in Sources */,
+				3FB65A5201E28EC69B651720BB2B25F9 /* Channel.swift in Sources */,
+				856B19C4F1FB52B02BA1C31E3A8A4B27 /* Constants.swift in Sources */,
+				05830A27C315DA52F1AD7A2E25A7B35B /* Error.swift in Sources */,
+				80D435E63D87B1ED79E4B84DB9AEAF1A /* JSONSerializer.swift in Sources */,
+				CE538FDB64C689A946750172FEAB0F77 /* RetryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F3D94EAA84B163851EC55C3DEAE50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1524F31DBF8744894C916452C53CF2F /* Pods-ActionCableClient-Example-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38637EA274569A8BCCDC569E14AF4361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E05A5658B8B86AB1E21D4DB890AB5B /* SwiftyJSON-iOS-dummy.m in Sources */,
+				CC4556B4792DAF49713134F9C1D6ECA5 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE1FE21CC7AA74F5805F8C17996AB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132BD02EF7000EB9B32E7A2CA4B09D4E /* Constraint.swift in Sources */,
+				2CEAD6A4058A7B4C9D0A6EA3EE23870E /* ConstraintAttributes.swift in Sources */,
+				0BC6BF47275F8F31B6209FE848D34656 /* ConstraintConfig.swift in Sources */,
+				F0E9F839F04DF8855C97C4B1C45C09E7 /* ConstraintConstantTarget.swift in Sources */,
+				ED29803DF6730E881A50D202851ACD45 /* ConstraintDescription.swift in Sources */,
+				B3F9BEB33D86697016CD4862FCE694D8 /* ConstraintDSL.swift in Sources */,
+				7B7D18764FBED05B88192503DEFC045B /* ConstraintInsets.swift in Sources */,
+				E36E41A5EF749333DE43CCB19136A872 /* ConstraintInsetTarget.swift in Sources */,
+				0C887A8A9A39AD89A0573FF76F7C81B8 /* ConstraintItem.swift in Sources */,
+				067B229FADC0D320465AED7429CCB90B /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				0A13C76431C95E5E8D4EBBD5EB28E5E6 /* ConstraintLayoutGuide.swift in Sources */,
+				7373CD59AE28487905C84E1B4AB02E72 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				B5E9FF6C9DBC53CB97DC44BB51CD96AE /* ConstraintLayoutSupport.swift in Sources */,
+				DFF40ECFAD641E376E6724692722F71A /* ConstraintLayoutSupportDSL.swift in Sources */,
+				678371FAEF0C5461BEB440FB75B50943 /* ConstraintMaker.swift in Sources */,
+				07AC455F6FD6C6D68A3CA2CCABA30939 /* ConstraintMakerEditable.swift in Sources */,
+				449AF9F0A36BA3C1D3335963D22A28CC /* ConstraintMakerExtendable.swift in Sources */,
+				9F0FE76E985617407746DFC50B611051 /* ConstraintMakerFinalizable.swift in Sources */,
+				38CB61037570FA2E9B332D5728CB2AFF /* ConstraintMakerPriortizable.swift in Sources */,
+				5E3BEC8B0F5C12BC8D21811C3E85004C /* ConstraintMakerRelatable.swift in Sources */,
+				4EF2A79BA9E9C0A970CB567887DD1F8F /* ConstraintMultiplierTarget.swift in Sources */,
+				369FCB34365E6F19CCD820C3940AAD77 /* ConstraintOffsetTarget.swift in Sources */,
+				95289289DB32B691DCE6181BD37568C1 /* ConstraintPriorityTarget.swift in Sources */,
+				2CE6F0971FCD840B594C3136989A10F6 /* ConstraintRelatableTarget.swift in Sources */,
+				0439CC2D1CCF117F0D458607187ED848 /* ConstraintRelation.swift in Sources */,
+				D8529D9D86B7EF0442A6083BC065C1A6 /* ConstraintView+Extensions.swift in Sources */,
+				E124E73F8B733C13338382494A28B80D /* ConstraintView.swift in Sources */,
+				E37A5EB8D614BC7C6CA6F6133213D6A1 /* ConstraintViewDSL.swift in Sources */,
+				13602A8852139A241F539771BCB7E7FE /* Debugging.swift in Sources */,
+				312B8B673533C1351E90A8A579F6C826 /* LayoutConstraint.swift in Sources */,
+				A33AD846E5C1556AC3F2FE1CB2121847 /* LayoutConstraintItem.swift in Sources */,
+				6ED605C370D186CA6D8527D486EEB2C3 /* SnapKit-tvOS-dummy.m in Sources */,
+				C928A3B2FB27C4B7BD6D597DC37F07CE /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB019F81FF67AD315FC586852FE1171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A160C651363C7A555EABFCAC434FC125 /* SSLSecurity.swift in Sources */,
+				4EB38D1386AD770FED009BD5A924752F /* Starscream-tvOS-dummy.m in Sources */,
+				D0D10BF3DD68CF6A8657766ADB2F058D /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629173FF733159F999988D6227F81332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED7283A2724D54CD619A02A9AA02984 /* SSLSecurity.swift in Sources */,
+				ABE26F0ABBA2760D1E2A062010CE7E3F /* Starscream-iOS-dummy.m in Sources */,
+				7DC371ADCFA3E54A7B43C4A8C24D8DCD /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92242710429BE1B820EBE28AA64814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE66AD6C49FE2C3C66FE1B722082418 /* Pods-ActionCableClient-Example-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A16DE8D136CF278D8ABAFDBE15FFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A4F4666F3EDE75D87CB64EC1305544 /* ActionCableClient-tvOS-dummy.m in Sources */,
+				40EDD4D358EEFBB167DB55D40B36F510 /* ActionCableClient.swift in Sources */,
+				A464A24F2AD1B237F95102119CF36358 /* Channel.swift in Sources */,
+				24F94EFC1F91A583D05D3F383CCE3309 /* Constants.swift in Sources */,
+				97213D03AAD57534E9C42C1BAC56197D /* Error.swift in Sources */,
+				A1BBDEDE78A56977EBF9224A2E7C993A /* JSONSerializer.swift in Sources */,
+				230D5C4974987105857736DFD7017EDC /* RetryHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63C6A8B4C958AA33AEC6C9AAFA0BD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFD86D2455585D811DE8F7E12A449B2 /* Constraint.swift in Sources */,
+				3832DA4E330DDA7A6717EB08AA50A782 /* ConstraintAttributes.swift in Sources */,
+				CC26573E47E064A394B20D49556106B0 /* ConstraintConfig.swift in Sources */,
+				A23EEBF27BA2FF9A0F30071FB0B8D87D /* ConstraintConstantTarget.swift in Sources */,
+				73DBE95AECFDE2EDC7BD94E11CFA9942 /* ConstraintDescription.swift in Sources */,
+				870FBA69E078920FAD65A450839B1171 /* ConstraintDSL.swift in Sources */,
+				F0B3DED243C730837591746A393C0B46 /* ConstraintInsets.swift in Sources */,
+				8288C9E031A463B3763F576C0667A5F2 /* ConstraintInsetTarget.swift in Sources */,
+				6B15795EB865036F00C0C1F09C2E0AB3 /* ConstraintItem.swift in Sources */,
+				F84AAB1ACF4C2AC0751741FF386250EC /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				FC7A5FC85AD6FFA4028FBB5408B8CD93 /* ConstraintLayoutGuide.swift in Sources */,
+				3B2DBFD6283537D2789CF2BAB9421C96 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				86996C477EF7884732EC30AD47E09A2C /* ConstraintLayoutSupport.swift in Sources */,
+				16AB97575E5C395B512737A919B0FF59 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				C522E4CCF9C124645354764BA040AC1D /* ConstraintMaker.swift in Sources */,
+				5CB7244038DA791D5B96BBC773AC4AEF /* ConstraintMakerEditable.swift in Sources */,
+				FB8DADC4CEE893475668FEF6EB04B212 /* ConstraintMakerExtendable.swift in Sources */,
+				C258835D4B339A2EFB3C28525927A012 /* ConstraintMakerFinalizable.swift in Sources */,
+				AFC6D2591E6F686642364D95FBAF6EC3 /* ConstraintMakerPriortizable.swift in Sources */,
+				6A9EE7F776335DD3245BEA83D83809F4 /* ConstraintMakerRelatable.swift in Sources */,
+				AF31F674023F3C688CF0122ABC795131 /* ConstraintMultiplierTarget.swift in Sources */,
+				5C3E80A590979275AB7CCC8D81F2F446 /* ConstraintOffsetTarget.swift in Sources */,
+				6C360772F35723CBB3B60BF5D6E50A60 /* ConstraintPriorityTarget.swift in Sources */,
+				CA06E7217FD02D89F166C3D6C62FB6E3 /* ConstraintRelatableTarget.swift in Sources */,
+				C2FE8663FAF4C3C1817D52E19E2EF490 /* ConstraintRelation.swift in Sources */,
+				FD112EA184504B465D12BC8682154991 /* ConstraintView+Extensions.swift in Sources */,
+				901FBA9267C4942A55200BBD897970DC /* ConstraintView.swift in Sources */,
+				C254D22DDDEF92582DBC78DA2264E25F /* ConstraintViewDSL.swift in Sources */,
+				2F0C056E2EBF4C6AD8A23B1956B66B37 /* Debugging.swift in Sources */,
+				DB645DAA6C5E942E27935C44E017AB10 /* LayoutConstraint.swift in Sources */,
+				78C0787633F97CC8001016500BBC260E /* LayoutConstraintItem.swift in Sources */,
+				68D0EBE0AC210AD9060D2E8F1E811832 /* SnapKit-iOS-dummy.m in Sources */,
+				1BFA71D68DD10A9903ED08A11440FBC9 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049C7BD059D9F0FB936D16A3421795D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-tvOS";
+			target = 3CD8DBF0177E5410FF543D386FD80E29 /* Starscream-tvOS */;
+			targetProxy = E9A12EA4ED93C7128BBAC630B9756AC4 /* PBXContainerItemProxy */;
+		};
+		1C14F93E001A4D0700D0DE6994D62BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-iOS";
+			target = 838B0789A7873B54733EF228834132F3 /* Starscream-iOS */;
+			targetProxy = E991F83BA47C527D7C75CFC69458A125 /* PBXContainerItemProxy */;
+		};
+		29773A160DD1BF8324A1293EDCF86DD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-iOS";
+			target = 838B0789A7873B54733EF228834132F3 /* Starscream-iOS */;
+			targetProxy = 745DEE7A056A63C508E8934B3E5656FB /* PBXContainerItemProxy */;
+		};
+		36B2F4C5DB2A0C852C31E71E59C9460E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-tvOS";
+			target = 3CD8DBF0177E5410FF543D386FD80E29 /* Starscream-tvOS */;
+			targetProxy = 95163F091C95AE8E7B3C9F33898BECA1 /* PBXContainerItemProxy */;
+		};
+		3BB6CB5F967E59878E5E36BFDC0B3378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionCableClient-tvOS";
+			target = 17866E21AC318EE6564FE61DAE0F06DC /* ActionCableClient-tvOS */;
+			targetProxy = E02163FD4F5C3725D8737AFAB99111DB /* PBXContainerItemProxy */;
+		};
+		514C94F78BB9CAE03AFA4385CC08547A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-tvOS";
+			target = 305EE27E131CF1F69F27C5FFA801D09F /* SwiftyJSON-tvOS */;
+			targetProxy = F79DB671D2129210FA81ABC02B40952E /* PBXContainerItemProxy */;
+		};
+		545D92FFDA97C7080F51475BF0EA3BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SnapKit-iOS";
+			target = E11AECFF6378E1778C962B0A76EF25E0 /* SnapKit-iOS */;
+			targetProxy = E62D760B0FEEE434AE1208A02E837E91 /* PBXContainerItemProxy */;
+		};
+		8F020D92DAF708D1B9C4D4D92196705D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SnapKit-tvOS";
+			target = 92DA9815EC4967E326E800138D4598A3 /* SnapKit-tvOS */;
+			targetProxy = AD1E8A6E35DE786433526CE415887EEA /* PBXContainerItemProxy */;
+		};
+		B7573E4D1F1320F01AA0E31985AA4198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON-iOS";
+			target = 9DCF190C5EA1F967D2E10DAED9E0E79B /* SwiftyJSON-iOS */;
+			targetProxy = 594F41D716A8544B108968D067B66EC2 /* PBXContainerItemProxy */;
+		};
+		B82DEBC9F3BC374E64C687EEF50906DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionCableClient-iOS";
+			target = C2A842023E1F8935138139E27621604A /* ActionCableClient-iOS */;
+			targetProxy = C800A7381BFBA32F8C5D18AC04DD6109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0751DFF6958768D0AF631BCCEA3F892B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1528019035422571A3302F56169CE75A /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E36D105EA13DC6D6AA1C14A56772EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31053939CAAF572D151F54179A71A1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3C2AB003897EAEBD2652951A47EF9E /* SwiftyJSON-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		352E30F44B46D915E5D957CEA924F60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9329DA2AA6F3A7F6A4BF2CD730C0D66 /* Pods-ActionCableClient-Example-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ActionCableClient-Example-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ActionCableClient-Example-iOS/Pods-ActionCableClient-Example-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ActionCableClient_Example_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A7F51BDD7AE8C7A6A8BC7FFEB3DAE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CF73EFC1B63BE9417FBAAEE059F70E /* ActionCableClient-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionCableClient-tvOS/ActionCableClient-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionCableClient-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionCableClient-tvOS/ActionCableClient-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ActionCableClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49653B9B55460A390A1907849D3A251D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936CB19CC9014ACB93A1C4A81917C43A /* SnapKit-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit-tvOS/SnapKit-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit-tvOS/SnapKit-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49BB57773213D5E46DC18126DF50D4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5A1E77E4DD769D079275514E7CFCFA /* Pods-ActionCableClient-Example-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ActionCableClient-Example-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ActionCableClient-Example-tvOS/Pods-ActionCableClient-Example-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ActionCableClient_Example_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5428CACFF9522BB33E0B7D8B485A1ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD1F94AC7FCCAA8CE81205E2DDBA7F2 /* Starscream-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-iOS/Starscream-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-iOS/Starscream-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ECF9713ED578EB49FB5788AF09D16C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		6A8BBAEBE25F1B16C28EF6C3888D12DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0FA0AFF65B48426005F9F436606DAA /* ActionCableClient-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionCableClient-iOS/ActionCableClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionCableClient-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionCableClient-iOS/ActionCableClient-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ActionCableClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71B2E3833D3F490531D60EDF8E262D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D375BB4978FF9F794EFCE89D4FDD81D8 /* SnapKit-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit-iOS/SnapKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit-iOS/SnapKit-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7669AA4F2D418C23390338D9A4C9CA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1528019035422571A3302F56169CE75A /* SwiftyJSON-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C1BA59CAE0CD2869F881EFCE2F85FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3C2AB003897EAEBD2652951A47EF9E /* SwiftyJSON-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON-tvOS/SwiftyJSON-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		976D5FC5AE0D0F9948DDEB29BE207519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1092EF8D9FCC2A42A0BC57626E3D017 /* Starscream-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-tvOS/Starscream-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-tvOS/Starscream-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BBF63FB7BA346EB59EFFF46A88EBE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CF73EFC1B63BE9417FBAAEE059F70E /* ActionCableClient-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionCableClient-tvOS/ActionCableClient-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionCableClient-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionCableClient-tvOS/ActionCableClient-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ActionCableClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CE0EB1751EFAF2BB6CFC25245929B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD1F94AC7FCCAA8CE81205E2DDBA7F2 /* Starscream-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-iOS/Starscream-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-iOS/Starscream-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8AB1236F3B67A09FBF8D1DB37DCA0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0FA0AFF65B48426005F9F436606DAA /* ActionCableClient-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ActionCableClient-iOS/ActionCableClient-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionCableClient-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionCableClient-iOS/ActionCableClient-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ActionCableClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B97D518F63C15A9BC2772D1476AAEE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F187F15C47116C1FD7795E250DD94763 /* Pods-ActionCableClient-Example-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ActionCableClient-Example-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ActionCableClient-Example-tvOS/Pods-ActionCableClient-Example-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ActionCableClient_Example_tvOS;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6899C17C5CA9D9DCD154978FB09F451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936CB19CC9014ACB93A1C4A81917C43A /* SnapKit-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit-tvOS/SnapKit-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit-tvOS/SnapKit-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC1644F2D0893AE1160E57AA048AEB20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D375BB4978FF9F794EFCE89D4FDD81D8 /* SnapKit-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit-iOS/SnapKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit-iOS/SnapKit-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E50550C4A0D42AA04D61CB986CA5F8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10CF5B4C728B77E4C29868907E72F51 /* Pods-ActionCableClient-Example-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ActionCableClient-Example-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ActionCableClient-Example-iOS/Pods-ActionCableClient-Example-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ActionCableClient_Example_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FAD4592ACA2CA4777196275189911474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1092EF8D9FCC2A42A0BC57626E3D017 /* Starscream-tvOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream-tvOS/Starscream-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream-tvOS/Starscream-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C21F318C612BC73FCD9A3E27B5BDC8C /* Build configuration list for PBXNativeTarget "Pods-ActionCableClient-Example-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E30F44B46D915E5D957CEA924F60F /* Debug */,
+				E50550C4A0D42AA04D61CB986CA5F8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECF9713ED578EB49FB5788AF09D16C0 /* Debug */,
+				0E36D105EA13DC6D6AA1C14A56772EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6388E697DE55BAC9C1134B308778BA /* Build configuration list for PBXNativeTarget "SnapKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B2E3833D3F490531D60EDF8E262D82 /* Debug */,
+				CC1644F2D0893AE1160E57AA048AEB20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FEEBC22F74F4305A06966BCD68C44AB /* Build configuration list for PBXNativeTarget "Starscream-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD4592ACA2CA4777196275189911474 /* Debug */,
+				976D5FC5AE0D0F9948DDEB29BE207519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892FBE5A06B909456A555C0652ADA98F /* Build configuration list for PBXNativeTarget "ActionCableClient-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7F51BDD7AE8C7A6A8BC7FFEB3DAE54 /* Debug */,
+				9BBF63FB7BA346EB59EFFF46A88EBE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A373D38510257DD199D0837EC97ABC11 /* Build configuration list for PBXNativeTarget "SwiftyJSON-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31053939CAAF572D151F54179A71A1DA /* Debug */,
+				7C1BA59CAE0CD2869F881EFCE2F85FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAC2CFC4B64F45D6700D3EEB4C2E505 /* Build configuration list for PBXNativeTarget "SnapKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6899C17C5CA9D9DCD154978FB09F451 /* Debug */,
+				49653B9B55460A390A1907849D3A251D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CC0899B8BF7AB26FEE6B8A095A0349 /* Build configuration list for PBXNativeTarget "Pods-ActionCableClient-Example-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97D518F63C15A9BC2772D1476AAEE7B /* Debug */,
+				49BB57773213D5E46DC18126DF50D4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD9F2E2B1D5508549C27DBBF7B22ADE /* Build configuration list for PBXNativeTarget "SwiftyJSON-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0751DFF6958768D0AF631BCCEA3F892B /* Debug */,
+				7669AA4F2D418C23390338D9A4C9CA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC1C14C599AC99C55FE6F982751C21C /* Build configuration list for PBXNativeTarget "ActionCableClient-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8BBAEBE25F1B16C28EF6C3888D12DC /* Debug */,
+				A8AB1236F3B67A09FBF8D1DB37DCA0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2D7941D9047172822C24B206F582CB /* Build configuration list for PBXNativeTarget "Starscream-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE0EB1751EFAF2BB6CFC25245929B28 /* Debug */,
+				5428CACFF9522BB33E0B7D8B485A1ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

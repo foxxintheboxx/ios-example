@@ -1,0 +1,6 @@
+framework module ActionCableClient {
+  umbrella header "ActionCableClient-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
